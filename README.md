@@ -1,22 +1,22 @@
 ### Projeto-de-Eng.Soft2
-* Nome do Projeto
-* Participantes:
+
+##Nome do Projeto:
+   -Fiscal Forte.
   
-  Guilheme Sandroni Dias
-
-* Tecnologias:
-
-  JavaScript React Css Html
-* Resumo do projeto com até 500 palavras
-
-  O projeto tem como objetivo ajudar  a administrar gastos relacionados a vida financeira.
-* Público alvo
-
-  Qualquer Idade
-* Principais dores que o projeto resolve
-
-  Administração e organização finaceira
+##Participantes
+  -Guilheme Sandroni Dias RA = 0030482121040
   
-* Formas de monetização
-
-  ads
+##Tecnologias:
+  -JavaScript React Css Html.
+  
+##Resumo do projeto com até 500 palavras:
+ -O projeto tem como objetivo ajudar  a administrar gastos relacionados a vida financeira.
+ 
+##Público alvo:
+ -Qualquer Idade.
+  
+##Principais dores que o projeto resolve:
+  -Administração e organização finaceira.
+  
+  ##Formas de monetização
+  -Planos Software Pago e Anuncios (Ads).
