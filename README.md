@@ -7,7 +7,14 @@
   -Guilheme Sandroni Dias RA = 0030482121040
   
 ## Tecnologias:
-  -JavaScript React Css Html.
+
+  -JavaScript
+  -Html
+  -Css
+  -React
+  -Bootstrap
+  
+  
   
 ## Resumo do projeto com até 500 palavras:
  -O projeto tem como objetivo ajudar  a administrar gastos relacionados a vida financeira.
