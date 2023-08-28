@@ -17,7 +17,7 @@
   
   
 ### Resumo do projeto com até 500 palavras:
- * O projeto tem como objetivo ajudar  a administrar gastos relacionados a vida financeira.
+ * O projeto consiste em desenvolver um aplicativo móvel abrangente de gestão financeira. O aplicativo permitirá aos usuários criar orçamentos personalizados, planejar investimentos, organizar despesas e gerar relatórios detalhados. Com uma interface intuitiva, o aplicativo fornecerá recursos para monitorar metas financeiras, acompanhar o desempenho de investimentos, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes.
  
 ### Público alvo:
  * Qualquer Idade.
