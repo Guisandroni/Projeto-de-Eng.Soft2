@@ -56,7 +56,8 @@
 
 * Análise de Dados: O aplicativo fornece ferramentas de análise avançadas para identificar tendências e oportunidades financeiras.
 
-### Observações Gerais:
+### Observações:
+* A automação para a entrada de dados do usuario será progredidamente atualizada.
 
 
 ### Requisitos da Versão Beta
@@ -70,5 +71,5 @@
 * Usuario: Pode criar uma conta no aplicativo, usar todas as funcionalidades básicas para gerenciar suas finanças e acessar recursos limitados gratuitamente.
 
 ### Responsividade
-* Ter o layout correto para larguras de tela com 350px ou mais.
-* Não considerar larguras menores que 350px.
+* Ter o layout correto para larguras de tela com 320px ou mais.
+* Não considerar larguras menores que 320px.
