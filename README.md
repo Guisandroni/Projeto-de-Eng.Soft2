@@ -4,7 +4,7 @@
    * CoinKeep
   
 ### Participantes
-  * Guilheme Sandroni Dias RA = 0030482121040
+  * Guilheme Sandroni Dias - RA = 0030482121040
   
 ### Tecnologias Utilzadas:
 
@@ -28,7 +28,7 @@
 ### Formas de monetização
   * Planos Software Pago e Anuncios (Ads).
 
-### Briefing Software Finanças
+## Briefing Software Finanças
 
 ### Resumo: Software Para Controle de Gastos
 * O individuo queira ele melhorar a organização e utilização de seus fundos capitais, utilizando das ferramentas do software como criar e controlar gastos, orçamentos, relatórios e metas para investimentos.
