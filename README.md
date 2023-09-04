@@ -41,6 +41,7 @@
   * Anúncios (Ads): O aplicativo exibirá anúncios relevantes para os usuários, gerando receita por meio de publicidade.
 
 ## Briefing Software Finanças
+
 ### Principais recursos e funcionalidades do CoinKeep:
 
 * Criação de Orçamentos Personalizados: Os usuários podem definir orçamentos específicos para categorias de despesas, como moradia, alimentação, transporte e entretenimento.
@@ -56,13 +57,15 @@
 * Análise de Dados: O aplicativo fornece ferramentas de análise avançadas para identificar tendências e oportunidades financeiras.
 
 ### Observações Gerais:
-* 
+
+
 ### Requisitos da Versão Beta
 #### Para a versão beta do CoinKeep, os seguintes requisitos técnicos e de funcionalidade são essenciais:
 * Compatibilidade com dispositivos móveis que executam Android 11 ou superior e sistemas iOS.
 * Registro de conta de usuário e autenticação.
 * Capacidade de criar e gerenciar orçamentos, despesas e metas financeiras.
 * Geração de relatórios básicos sobre atividades financeiras.
+  
 ### Perfis
 * Usuario: Pode criar uma conta no aplicativo, usar todas as funcionalidades básicas para gerenciar suas finanças e acessar recursos limitados gratuitamente.
 
