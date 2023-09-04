@@ -68,7 +68,8 @@
 * Geração de relatórios básicos sobre atividades financeiras.
   
 ### Perfis
-* Usuario: Pode criar uma conta no aplicativo, usar todas as funcionalidades básicas para gerenciar suas finanças e acessar recursos limitados gratuitamente.
+* Usuario: Pode criar uma conta no aplicativo, usar todas as funcionalidades  para gerenciar suas finanças e os acessar recursos.
+*  Admin: Tera acesso total ao software garantindo estabilidade, performance e segurança para a aplicação.
 
 ### Responsividade
 * Ter o layout correto para larguras de tela com 320px ou mais.
