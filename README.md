@@ -23,7 +23,25 @@
 
 * O aplicativo se destina a um público amplo, abrangendo pessoas de todas as idades que desejam melhorar sua administração financeira. Independentemente de você ser um estudante universitário que deseja controlar seus gastos mensais ou um profissional que busca otimizar seus investimentos, o CoinKeep oferece as ferramentas necessárias.
 
-#### Principais recursos e funcionalidades do CoinKeep:
+
+### Público alvo:
+ * O CoinKeep é destinado a um público amplo e diversificado, incluindo:
+ * Estudantes universitários em busca de controle financeiro.
+ * Profissionais que desejam otimizar seus investimentos.
+ * Pequenos empresários que precisam controlar as finanças de seus negócios
+
+### Principais dores que o projeto resolve:
+ * Falta de organização financeira.
+ * Dificuldade em acompanhar gastos e despesas.
+ * Incerteza sobre como investir dinheiro de forma eficaz.
+  
+### Formas de monetização
+  * Planos de Software Pago: Os usuários podem acessar recursos avançados e funcionalidades adicionais por meio de assinaturas pagas.
+
+  * Anúncios (Ads): O aplicativo exibirá anúncios relevantes para os usuários, gerando receita por meio de publicidade.
+
+## Briefing Software Finanças
+### Principais recursos e funcionalidades do CoinKeep:
 
 * Criação de Orçamentos Personalizados: Os usuários podem definir orçamentos específicos para categorias de despesas, como moradia, alimentação, transporte e entretenimento.
 
@@ -37,23 +55,17 @@
 
 * Análise de Dados: O aplicativo fornece ferramentas de análise avançadas para identificar tendências e oportunidades financeiras.
 
-### Público alvo:
- * Qualquer Idade.
-
-### Principais dores que o projeto resolve:
-  * Administração e organização finaceira.
-  
-### Formas de monetização
-  * Planos Software Pago e Anuncios (Ads).
-
-## Briefing Software Finanças
-
-### Resumo: Software Para Controle de Gastos
-* O individuo queira ele melhorar a organização e utilização de seus fundos capitais, utilizando das ferramentas do software como criar e controlar: gastos, orçamentos, relatórios e metas para investimentos.
-* O software terá seu uso em dispositivos mobile
-
-### Requisitos da Versão Beta
-* O usuario poderá utilizar do software em qualquer dipositivo mobile com android 11 ácima e sistemas Ios
+### Observações Gerais:
 * 
+### Requisitos da Versão Beta
+#### Para a versão beta do CoinKeep, os seguintes requisitos técnicos e de funcionalidade são essenciais:
+* Compatibilidade com dispositivos móveis que executam Android 11 ou superior e sistemas iOS.
+* Registro de conta de usuário e autenticação.
+* Capacidade de criar e gerenciar orçamentos, despesas e metas financeiras.
+* Geração de relatórios básicos sobre atividades financeiras.
 ### Perfis
-* Usuario: Possui acesso para criar sua conta e gerenciar seus gastos e orçamentos como bem entender sob a plataforma
+* Usuario: Pode criar uma conta no aplicativo, usar todas as funcionalidades básicas para gerenciar suas finanças e acessar recursos limitados gratuitamente.
+
+### Responsividade
+* Ter o layout correto para larguras de tela com 350px ou mais.
+* Não considerar larguras menores que 350px.
