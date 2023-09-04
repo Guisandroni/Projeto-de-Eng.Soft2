@@ -1,12 +1,12 @@
 ## Projeto-de-Eng.Soft2
 
-### Nome do Projeto:
+## Nome do Projeto:
    * CoinKeep
   
-### Participantes
+## Participantes
   * Guilheme Sandroni Dias RA = 0030482121040
   
-### Tecnologias Utilzadas:
+## Tecnologias Utilzadas:
 
   * JavaScript
   * Html
