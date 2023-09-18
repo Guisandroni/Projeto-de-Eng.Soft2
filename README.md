@@ -78,9 +78,9 @@
 ## Diagramas:
 
 ### Casos de Uso:
-  
+  use-case.png
 
 ### Modelo Conceitual:
-![mdct] (Modelo Conceitual  - CoinKeeper.png)
+Modelo Conceitual  - CoinKeeper.png
 
 ### End Points:
