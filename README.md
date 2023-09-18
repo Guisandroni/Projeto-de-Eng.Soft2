@@ -74,3 +74,13 @@
 ### Responsividade
 * Ter o layout correto para larguras de tela com 320px ou mais.
 * Não considerar larguras menores que 320px.
+
+## Diagramas:
+
+### Casos de Uso:
+
+
+### Modelo Conceitual:
+
+
+### End Points:
