@@ -1,12 +1,13 @@
 ## Projeto-de-Eng.Soft2
 
-### Nome do Projeto:
-   * CoinKeep
+
+   ### CoinKeep
+   
   
 ### Participantes
   * Guilheme Sandroni Dias - RA = 0030482121040
   
-### Tecnologias Utilzadas:
+### Tecnologias a Serem Utilzadas:
 
   * JavaScript
   * Html
@@ -16,7 +17,7 @@
   
   
   
-### Resumo do projeto com até 500 palavras:
+### Resumo do projeto:
  * O projeto consiste em desenvolver um aplicativo móvel abrangente de gestão financeira. O aplicativo permitirá aos usuários criar orçamentos personalizados, planejar investimentos, organizar despesas e gerar relatórios detalhados. Com uma interface intuitiva, o aplicativo fornecerá recursos para monitorar metas financeiras, acompanhar o desempenho de investimentos, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes.
 
  * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira projetado para ajudar os usuários a controlar suas finanças pessoais de maneira eficaz. Com uma interface intuitiva e recursos poderosos, o CoinKeep permite que os usuários criem orçamentos personalizados, planejem investimentos, organizem despesas e gerem relatórios detalhados sobre suas atividades financeiras.
