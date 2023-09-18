@@ -28,7 +28,7 @@
  * O CoinKeep é destinado a um público amplo e diversificado, incluindo:
  * Estudantes universitários em busca de controle financeiro.
  * Profissionais que desejam otimizar seus investimentos.
- * Pequenos empresários que precisam controlar as finanças de seus negócios
+
 
 ### Principais dores que o projeto resolve:
  * Falta de organização financeira.
