@@ -1,0 +1,62 @@
+@startuml
+
+package "CoinKeep" {
+
+  abstract Client {
+    - nome
+    - email
+    - senha
+    - data_nascimento
+    - sexo
+    - renda
+    
+  }
+
+  class Receita {
+    - descricao
+    - valor
+    - data
+  }
+
+  class Despesa {
+    - descricao
+    - valor
+    - data
+    - categoria
+  }
+
+  class Meta {
+    - Objetivos_Financeiros
+    - descricao
+    - valor
+    - data
+    
+  }
+
+  class Relatorio {
+    - titulo
+    - data
+    - conteudo
+  }
+
+  class Planejamento {
+    - objetivo
+    - prazo
+    - etapas
+    - recursos
+  }
+  class categoria{
+      - name
+  }
+
+  
+
+  Client  <|-- Receita
+  Despesa o-l-   categoria
+  Planejamento o-r- Relatorio
+  Receita o-- Meta
+  Receita -l- Despesa
+  Planejamento -l- Receita
+}
+
+@enduml

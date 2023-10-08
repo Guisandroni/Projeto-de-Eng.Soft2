@@ -1,0 +1,52 @@
+@startuml "use-case"
+left to right direction
+actor client 
+actor admin 
+
+package Ferramentas  {
+
+    usecase "Dados Client" as Id
+    usecase "Gerar Relatorios" as Cr  
+    usecase "Controlar Despesas" as gg 
+    usecase "Editar Metas" as gc 
+    usecase "Editar Planejamento" as gp 
+
+   usecase  "Definir Despesas" as Fcg 
+    usecase "Criar Planejamento" as Fc
+    usecase "Criar Metas" as Ci 
+    
+}
+
+package Control{
+
+    usecase "Listar Usuários" as Lu 
+    usecase "Controle do Usuario" as Cu
+}
+client --> gc
+client --> gg
+client --> Cr
+client --> Id
+client --> gp
+admin --> Lu 
+admin --> Cu
+(Id) <.. (Fc) : <include>
+(Id) <.. (Ci) : <include>
+(Id) <.. (Fcg) : <include>
+
+
+
+
+
+
+
+
+
+
+admin -|> client
+
+
+
+
+
+@enduml
+
