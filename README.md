@@ -18,9 +18,7 @@
   
   
 ### Resumo do projeto:
- * O projeto consiste em desenvolver um aplicativo móvel abrangente de gestão financeira. O aplicativo permitirá aos usuários criar orçamentos personalizados, planejar investimentos, organizar despesas e gerar relatórios detalhados. Com uma interface intuitiva, o aplicativo fornecerá recursos para monitorar metas financeiras, acompanhar o desempenho de investimentos, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes.
-
- * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira projetado para ajudar os usuários a controlar suas finanças pessoais de maneira eficaz. Com uma interface intuitiva e recursos poderosos, o CoinKeep permite que os usuários criem orçamentos personalizados, planejem investimentos, organizem despesas e gerem relatórios detalhados sobre suas atividades financeiras.
+ * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira com recursos poderosos e interface intuitiva. Ele ajuda os usuários a controlar suas finanças pessoais de maneira eficaz, permitindo a criação de orçamentos personalizados, planejamento de metas, organização de despesas e geração de relatórios detalhados sobre atividades financeiras. O aplicativo também oferece recursos para monitorar metas financeiras, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes. 
 
 * O aplicativo se destina a um público amplo, abrangendo pessoas de todas as idades que desejam melhorar sua administração financeira. Independentemente de você ser um estudante universitário que deseja controlar seus gastos mensais ou um profissional que busca otimizar seus investimentos, o CoinKeep oferece as ferramentas necessárias.
 
@@ -46,8 +44,6 @@
 ### Principais recursos e funcionalidades do CoinKeep:
 
 * Criação de Orçamentos Personalizados: Os usuários podem definir orçamentos específicos para categorias de despesas, como moradia, alimentação, transporte e entretenimento.
-
-* Planejamento de Investimentos: O aplicativo permite que os usuários estabeleçam metas de investimento, fornece informações sobre diferentes opções de investimento e acompanha o desempenho de carteiras de investimentos.
 
 * Organização de Despesas: Os usuários podem registrar suas despesas de forma rápida e fácil, categorizando-as automaticamente ou manualmente.
 
