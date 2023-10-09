@@ -18,8 +18,7 @@
   
   
 ### Resumo do projeto:
- * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira com recursos poderosos e interface intuitiva. Ele ajuda os usuários a controlar suas finanças pessoais de maneira eficaz, permitindo a criação de orçamentos personalizados, planejamento de metas, organização de despesas e geração de relatórios detalhados sobre atividades financeiras. O aplicativo também oferece recursos para monitorar metas financeiras, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes. 
-
+ * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira com recursos poderosos e interface intuitiva. Ele ajuda os usuários a controlar suas finanças pessoais de maneira eficaz, permitindo a criação de orçamentos personalizados, planejamento de investimentos, organização de despesas e geração de relatórios detalhados sobre atividades financeiras. O aplicativo também oferece recursos para monitorar metas financeiras, acompanhar o desempenho de investimentos, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes.
 * O aplicativo se destina a um público amplo, abrangendo pessoas de todas as idades que desejam melhorar sua administração financeira. Independentemente de você ser um estudante universitário que deseja controlar seus gastos mensais ou um profissional que busca otimizar seus investimentos, o CoinKeep oferece as ferramentas necessárias.
 
 
