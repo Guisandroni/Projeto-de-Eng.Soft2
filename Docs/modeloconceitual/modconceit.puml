@@ -3,60 +3,61 @@
 package "CoinKeep" {
 
   abstract Client {
-    - nome
-    - email
-    - senha
-    - data_nascimento
-    - sexo
-    - renda
+    - name: string
+    - email: string
+    - password: char
+    - data_nascimento: char
+    - sexo: string
+    - renda: int
     
   }
 
   class Receita {
-    - descricao
-    - valor
-    - data
+    - description: string
+    - value: int
+    - date: char
   }
 
   class Despesa {
-    - descricao
-    - valor
-    - data
-    - categoria
+    - description: string
+    - value: int
+    - date: char
+    - category: string
   }
 
   class Meta {
-    - Objetivos_Financeiros
-    - descricao
-    - valor
-    - data
+    - Objetivos_Financeiros: string
+    - description: string
+    - Value: int
+    - date: char
     
   }
 
   class Relatorio {
-    - titulo
-    - data
-    - conteudo
+    - Title: string
+    - date: char
+    - Content: string
   }
 
   class Planejamento {
-    - objetivo
-    - prazo
-    - etapas
-    - recursos
+    - Objective: string
+    - Deadline: int
+    - Steps: string
+    - Resources: string
   }
   class categoria{
-      - name
+      - name: string
   }
 
   
 
   Client  <|-- Receita
   Despesa o-l-   categoria
-  Planejamento o-r- Relatorio
+  Planejamento o-- Relatorio
   Receita o-- Meta
   Receita -l- Despesa
-  Planejamento -l- Receita
+  Planejamento -- Receita
+  Meta -r- Planejamento
 }
 
 @enduml
