@@ -49,15 +49,35 @@ package "CoinKeep" {
       - name: string
   }
 
-  
+  class Renda{
+    - valor: int
+    - Mensal: int
+    - Semanal: int 
+    - Diaria: int
+    
+  }
 
-  Client  <|-- Receita
-  Despesa o-l-   categoria
-  Planejamento o-- Relatorio
-  Receita o-- Meta
-  Receita -l- Despesa
-  Planejamento -- Receita
-  Meta -r- Planejamento
+  class Excluir_Conta{
+    - nome: string
+    - email: string
+    - Data: char
+
+  }
+  Class Criar_Conta{
+    - nome: string
+    - email: string
+    - Data: char
+  }
+ Client -- Receita
+ Client -- Despesa
+ Client -- Planejamento
+ Client -- Meta
+ Client -- Relatorio
+ Despesa -- categoria
+ Client -- Renda
+ Client -- Excluir_Conta
+ Client -- Criar_Conta
+
 }
 
 @enduml

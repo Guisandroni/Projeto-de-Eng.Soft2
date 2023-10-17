@@ -5,44 +5,52 @@ actor admin
 
 package Ferramentas  {
 
-    usecase "Dados Client" as Id
-    usecase "Gerar Relatorios" as Cr  
-    usecase "Controlar Despesas" as gg 
-    usecase "Editar Metas" as gc 
-    usecase "Editar Planejamento" as gp 
+     usecase "Criar Orçamento" as 1
+    usecase "Criar Metas"    as 2
+    usecase "Criar Planejamento" as 3
+    usecase "Gerar Relatorios" as 4
+    usecase " Adcionar Despesas" as 5
+    usecase "Controlar Despesas" as 6
+    usecase "Editar Metas" as 7             
+    usecase "Editar Planejamento" as 8
+    usecase "Adcionar Receitas" as 9
+    usecase "Controlar Receitas" as 17
+    usecase "Inserir Renda" as 10 
+    usecase "Inserir Dados" as 11
+    usecase "Criar Conta" as 15
+    usecase "Excluir Conta" as 16
 
-   usecase  "Definir Despesas" as Fcg 
-    usecase "Criar Planejamento" as Fc
-    usecase "Criar Metas" as Ci 
     
 }
 
 package Control{
 
+   
     usecase "Listar Usuários" as Lu 
-    usecase "Controle do Usuario" as Cu
+    usecase "Adcionar Usuario" as 12
+    usecase "Remover Usuario" as 13
+    usecase "Visualizar Usuarios" as 14
+
 }
-client --> gc
-client --> gg
-client --> Cr
-client --> Id
-client --> gp
-admin --> Lu 
-admin --> Cu
-(Id) <.. (Fc) : <include>
-(Id) <.. (Ci) : <include>
-(Id) <.. (Fcg) : <include>
+client --> 1
+client --> 2
+client --> 3
+client --> 4
+client --> 5
+client --> 6
+client --> 7
+client --> 8
+client --> 9
+client --> 10
+client --> 11
+client --> 15
+client --> 16
+client --> 17
+admin --> Lu
+admin --> 12
+admin --> 13
+admin --> 14
 
-
-
-
-
-
-
-
-
-
-admin -|> client
 
 
 
