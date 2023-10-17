@@ -74,10 +74,10 @@
 ## Diagramas:
 
 ### Casos de Uso:
-![case](Docs/cases/case.png)
+![case](Docs/cases/use-case.png)
 
 ### Modelo Conceitual:
-![md](out/Docs/modeloconceitual/modconceit/modconceit.png)
+![md](Docs/modeloconceitual/modconceit copy.png)
 
 ### End Points:
 
