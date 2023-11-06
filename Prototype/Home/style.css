@@ -1,0 +1,44 @@
+.ferramentas{
+    
+    display: grid;
+    grid-template-columns: 50% 300px 1fr;
+    padding: 2%
+
+
+
+}
+.meta{
+    background-color: #fff4f0;
+    margin: 10px;
+    
+}
+.despesa{
+    background-color:#fff0fb;
+    margin: 10px;
+}
+#orçamento,.btnbtn-primary{
+    display: grid;
+    text-align: center;
+    padding:20px;
+    background-color: #f0ffff;
+}
+h1,h2{
+        background-color:#3399ff;
+        display: grid;
+        text-align: center;
+        text-decoration: blueviolet;
+        border-radius: 4px;
+
+
+
+}
+
+h2{
+    background-color:beige ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
