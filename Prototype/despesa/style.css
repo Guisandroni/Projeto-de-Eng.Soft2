@@ -1,0 +1,109 @@
+.navbar {
+  align-items: self-start;
+  background-color: hsl(0, 0%, 17.25%);
+  display: flex;
+}
+
+a {
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.despesa {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-primary {
+  margin: 10px;
+}
+.btncriar {
+  background-color: aliceblue;
+}
+a {
+  color: #fff;
+}
+.ferramentas,
+.perfil {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+.ferramentas {
+  font-size: 16px;
+  gap: 10px;
+  color: #f0f0f0;
+}
+
+.ferramentas > p {
+  padding: 20px 10px;
+}
+
+.logo {
+  color: #ffff;
+}
+.navbar > h2 {
+  color: #ffff;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  color: #ffff;
+}
+.perfil > p {
+  padding: 10px;
+}
+
+.perfil > .welcome {
+  font-size: 12px;
+}
+
+.perfil > .nome {
+  font-size: 18px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dadodespesa {
+  display: flex;
+  flex-direction: row;
+}
+
+.valor_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body > p {
+  margin: 4px;
+}

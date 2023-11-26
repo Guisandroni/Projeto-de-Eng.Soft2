@@ -1,0 +1,16 @@
+.navbar {
+  align-items: self-start;
+  background-color: hsl(0, 0%, 17.25%);
+  display: flex;
+}
+
+a {
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
