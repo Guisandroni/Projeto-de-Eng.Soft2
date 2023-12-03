@@ -107,3 +107,12 @@ a {
 .modal-body > p {
   margin: 4px;
 }
+
+.cat {
+  border: none;
+}
+
+.despesa {
+  gap: 20px;
+  padding: 30px;
+}

@@ -1,0 +1,26 @@
+form > a {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: blue;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+form > h2 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+.cr {
+  background-color: hsl(210, 16.67%, 97.65%);
+  color: black;
+}

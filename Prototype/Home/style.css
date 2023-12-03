@@ -1,9 +1,8 @@
-/*.navbar {
+.navbar {
   align-items: self-start;
   background-color: hsl(0, 0%, 17.25%);
   display: flex;
 }
-*/
 
 a {
   color: #fff;
@@ -121,7 +120,6 @@ a {
 }
 
 .cardmeta {
-  background-color: #8ba3bd;
 }
 
 .namecat {
