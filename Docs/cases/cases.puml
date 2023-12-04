@@ -18,7 +18,7 @@ package Ferramentas  {
     usecase "Inserir Renda" as 10 
     usecase "Inserir Dados" as 11
     usecase "Criar Conta" as 15
-    usecase "Excluir Conta" as 16
+  
 
     
 }

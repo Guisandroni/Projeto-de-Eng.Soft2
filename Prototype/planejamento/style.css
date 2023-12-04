@@ -29,7 +29,6 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
 }
 
 h2 {
@@ -67,4 +66,13 @@ button {
   align-items: center;
   flex-direction: column;
   margin-top: 10px;
+}
+
+.saldo {
+  display: flex;
+  gap: 30px;
+  background-color: hsl(210, 16.67%, 97.65%);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

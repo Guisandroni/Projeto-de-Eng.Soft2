@@ -35,3 +35,18 @@ a {
   width: 100%;
   margin-top: 20px;
 }
+
+.saldo {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.saldoinicial,
+.saldodespesas,
+.saldoreceita {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px;
+}

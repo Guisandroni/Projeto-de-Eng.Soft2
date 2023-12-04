@@ -79,10 +79,29 @@
           <label for="receitas">Receitas Previstas:</label>
           <input type="number" id="receitas" name="receitas" placeholder="Informe as receitas previstas" required>
 
+          <label for="metas">Meta Prevista:</label>
+          <input type="number" id="metas" name="metas" placeholder="Informe as metas previstas" required>
+
           <button type="button" onclick="calcularSaldo()">Calcular Saldo</button>
         </form>
 
         <div id="resultado"></div>
+
+      </div>
+
+      <div class="saldo">
+        <div class="saldoinicial">
+          <p>Saldo Inicial: R$ 5.000,00</p>
+        </div>
+        <div class="saldodespesas">
+          <p>Saldo das despesas: R$ 2.300,00</p>
+        </div>
+        <div class="saldoreceita">
+          <p>Saldo das Receitas: R$ 20.000,00</p>
+        </div>
+        <div class="saldometa">
+          <p>Saldo da Meta: R$ 50.000,00</p>
+        </div>
       </div>
 
 
@@ -104,8 +123,9 @@
       var saldoInicial = parseFloat(document.getElementById("saldoInicial").value);
       var despesas = parseFloat(document.getElementById("despesas").value);
       var receitas = parseFloat(document.getElementById("receitas").value);
+      var metas = parseFloat(document.getElementById("metas").value);
 
-      var saldoFinal = saldoInicial + receitas - despesas;
+      var saldoFinal = saldoInicial + receitas - metas - despesas;
 
       document.getElementById("resultado").innerHTML = "<p>Saldo Final: R$ " + saldoFinal.toFixed(2) + "</p>";
     }

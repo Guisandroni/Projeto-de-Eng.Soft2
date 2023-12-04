@@ -8,7 +8,7 @@ package "CoinKeep" {
     - password: char
     - data_nascimento: char
     - sexo: string
-    - renda: int
+   
     
   }
 
@@ -26,57 +26,43 @@ package "CoinKeep" {
   }
 
   class Meta {
-    - Objetivos_Financeiros: string
     - description: string
-    - Value: int
+    - value: int
     - date: char
     
   }
 
   class Relatorio {
-    - Title: string
+    - title: string
     - date: char
     - Content: string
   }
 
   class Planejamento {
-    - Objective: string
+    - renda: int
     - Deadline: int
-    - Steps: string
-    - Resources: string
+    - orçamento: int
   }
-  class categoria{
-      - name: string
-  }
+  
 
-  class Renda{
-    - valor: int
-    - Mensal: int
-    - Semanal: int 
-    - Diaria: int
-    
-  }
+ class Comprar_Plano{
+  - value: int
+  - name: string
+ }
 
-  class Excluir_Conta{
-    - nome: string
-    - email: string
-    - Data: char
-
-  }
+  
   Class Criar_Conta{
     - nome: string
     - email: string
     - Data: char
   }
- Client -- Receita
- Client -- Despesa
+ Planejamento -- Receita
+ Planejamento -- Despesa
  Client -- Planejamento
- Client -- Meta
- Client -- Relatorio
- Despesa -- categoria
- Client -- Renda
- Client -- Excluir_Conta
+ Planejamento-- Meta
+Planejamento -- Relatorio
  Client -- Criar_Conta
+ Client -- Comprar_Plano
 
 }
 
