@@ -18,7 +18,7 @@
   
   
 ### Resumo do projeto:
- * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira com recursos poderosos e interface intuitiva. Ele ajuda os usuários a controlar suas finanças pessoais de maneira eficaz, permitindo a criação de orçamentos personalizados, organização de despesas e geração de relatórios detalhados sobre atividades financeiras. O aplicativo também oferece recursos para monitorar metas financeiras, categorizar gastos e analisar dados em relatórios claros e seguros, capacitando os usuários a tomar decisões financeiras informadas e eficazes.
+ * O projeto "CoinKeep" é um aplicativo móvel abrangente de gestão financeira com recursos poderosos e interface intuitiva. Ele ajuda os usuários a controlar suas finanças pessoais de maneira eficaz, permitindo a criação de orçamentos, organização de despesas e geração de relatórios  sobre atividades financeiras. O aplicativo também oferece recursos para monitorar metas financeiras, categorizar gastos.
 * O aplicativo se destina a um público amplo, abrangendo pessoas de todas as idades que desejam melhorar sua administração financeira. Independentemente de você ser um estudante universitário que deseja controlar seus gastos mensais ou um profissional que busca otimizar seus investimentos, o CoinKeep oferece as ferramentas necessárias.
 
 
@@ -34,7 +34,7 @@
  * Incerteza sobre como investir dinheiro de forma eficaz.
   
 ### Formas de monetização
-  * Planos de Software Pago: Os usuários podem acessar recursos avançados e funcionalidades adicionais por meio de assinaturas pagas.
+  * Planos de Software Pago: Os usuários podem acessar a aplicação sem a necessidade de visualizar publicidade.
 
   * Anúncios (Ads): O aplicativo exibirá anúncios relevantes para os usuários, gerando receita por meio de publicidade.
 
@@ -42,7 +42,7 @@
 
 ### Principais recursos e funcionalidades do CoinKeep:
 
-* Criação de Orçamentos Personalizados: Os usuários podem definir orçamentos específicos para categorias de despesas, como moradia, alimentação, transporte e entretenimento.
+* Criação de Orçamentos: Os usuários podem definir o orçamento para uso da aplicação.
 
 * Organização de Despesas: Os usuários podem registrar suas despesas de forma rápida e fácil, categorizando-as automaticamente ou manualmente.
 
@@ -50,7 +50,6 @@
 
 * Monitoramento de Metas Financeiras: Os usuários podem definir metas de economia e o aplicativo ajuda a rastrear o progresso em direção a essas metas.
 
-* Análise de Dados: O aplicativo fornece ferramentas de análise avançadas para identificar tendências e oportunidades financeiras.
 
 ### Observações:
 * A automação para a entrada de dados do usuario será progredidamente atualizada.
