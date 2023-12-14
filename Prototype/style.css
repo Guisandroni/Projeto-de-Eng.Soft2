@@ -1,3 +1,41 @@
+.navbar {
+  align-items: self-start;
+  background-color: hsl(0, 0%, 17.25%);
+  display: flex;
+}
+
+.navmobile {
+  background-color: #333;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.main {
+  min-height: 100vh;
+}
+
+h4 {
+  text-align: center;
+}
+
+.navmobile > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5rem;
+}
+
+.navmobile > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,223 +43,111 @@
   font-family: "Fraunces", serif;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-}
-.conteudo {
-  background-color: #f8f7f1;
-  height: 800px;
-  width: 100%;
-  border-radius: 12px;
-}
-
-.navbar {
-  background-color: hsl(0, 0%, 17.25%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  width: 100%;
-  gap: 40px;
-  color: #f0f0f0;
-  border-radius: 18px;
-}
-
-.ferramentas {
-  font-size: 16px;
-  gap: 10px;
-  color: #f0f0f0;
-}
-
-.ferramentas > p {
-  padding: 20px 10px;
-}
-
-.perfil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.perfil > p {
-  padding: 10px;
-}
-
-.perfil > .welcome {
-  font-size: 12px;
-}
-
-.perfil > .nome {
-  font-size: 18px;
-}
-
-.foto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  color: black;
-  width: 100px;
-  height: 100px;
-}
-
-.head {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-}
-
-.head > .dashboard > p {
-  padding: 10px;
-  color: black;
-}
-
-.search {
-  background-color: #f5f8fb;
-  height: 40px;
-  width: 400px;
-  border-radius: 12px;
-  justify-content: start;
-  align-items: center;
-  display: flex;
-  padding-left: 10px;
-}
-
-.lateral {
-  display: flex;
-  flex-direction: column;
-  background-color: #f1eee4;
-  height: 800px;
-  gap: 20px;
-  border-radius: 18px;
-  width: 100%;
-}
-
-.profits {
-  background-color: #f5f8fb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  border-radius: 18px;
-  height: 250px;
-}
-
-.title {
-  padding-top: 40px;
-}
-
-.porcentagem {
-  display: flex;
-}
-
-.recent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.box {
-  display: flex;
-  background-color: #f0f0f0;
-  height: 50px;
-  width: 300px;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  border-radius: 18px;
-  justify-content: space-around;
-}
-
-.box > .image {
-  border-radius: 50%;
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .cards {
   display: flex;
-  gap: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.total {
-  background-color: #c6d0bc;
-  height: 100px;
-  width: 150px;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.history {
+  gap: 20px;
 }
 
-.receita {
-  background-color: #f6d78b;
-  height: 100px;
-  width: 150px;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
+.bar-chart {
   display: flex;
-  flex-direction: column;
-}
-
-.despesa {
-  background-color: #a2a7fd;
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.historico {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
   gap: 40px;
-  padding: 40px;
+  flex-wrap: wrap;
 }
 
-.configraf {
+.container {
   display: flex;
-}
-
-.grafico {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
-  align-items: end;
 }
 
-.percentual {
+.sadliq > span {
+  color: green;
+}
+
+.saddesp > span {
+  color: red;
+}
+
+.saddesp,
+.sadliq {
+  display: flex;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255) ede;
+  color: #000000;
+  justify-content: center;
+}
+
+.lancamentos {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+  align-items: start;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.percentual > p {
-  padding: 10px;
-}
-
-span {
+.lancamentos > .descrimeta {
   display: flex;
-  background-color: rgb(0, 0, 0);
-  height: 170px;
-  width: 40px;
-  margin: 10px;
-  border-radius: 18px;
+  gap: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lancamentos > .valormeta {
+  display: flex;
+  gap: 10px;
+}
+
+.progre {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  margin: 0px 20px;
+}
+
+.cut {
+  background-color: #333;
+  width: 90%;
+  height: 4px;
+  margin: 20px;
+}
+
+.ultlanc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0px 20px;
+  align-items: center;
+}
+.lista {
+  display: flex;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+.despesa > span {
+  color: red;
+}
+
+.receita > span {
+  color: green;
 }

@@ -14,13 +14,7 @@ a {
   box-sizing: border-box;
   font-family: "Fraunces", serif;
 }
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
+
 .despesa {
   text-align: center;
   margin-top: 20px;
@@ -34,10 +28,7 @@ a {
 a {
   color: #fff;
 }
-.ferramentas,
-.perfil {
-  display: flex;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,63 +36,19 @@ a {
   font-family: "Fraunces", serif;
 }
 
-.ferramentas {
-  font-size: 16px;
-  gap: 10px;
-  color: #f0f0f0;
-}
-
-.ferramentas > p {
-  padding: 20px 10px;
-}
-
-.logo {
-  color: #ffff;
-}
-.navbar > h2 {
-  color: #ffff;
-}
-.perfil {
+/*
+.cards {
   display: flex;
-  align-items: center;
-  color: #ffff;
-}
-.perfil > p {
-  padding: 10px;
-}
-
-.perfil > .welcome {
-  font-size: 12px;
-}
-
-.perfil > .nome {
-  font-size: 18px;
-}
-
-.foto {
-  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  color: black;
-  width: 100px;
-  height: 100px;
 }
+*/
 
 .card-title {
   text-align: center;
   margin-bottom: 20px;
-}
-
-.dadodespesa {
-  display: flex;
-  flex-direction: row;
-}
-
-.valor_data {
-  display: flex;
-  flex-direction: column;
 }
 
 .modal-body > p {
@@ -117,17 +64,62 @@ a {
   padding: 30px;
 }
 
-.saldo {
+.section {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
-  margin: 20px;
+  flex-wrap: wrap;
 }
 
-.saldoinicial,
-.saldodespesas,
-.saldoreceita {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 10px;
+.despesa1 {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.categoria {
+  display: flex;
+  padding: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px;
+  gap: 4px;
+}
+
+.despesas {
+  margin-top: 20px;
+}
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modal-body > p {
+  margin: 5px;
+}
+
+input,
+textarea {
+  border-radius: 6px;
+  text-align: center;
+}
+
+.inptdata {
+  gap: 10px;
+  display: flex;
+}
+
+.data {
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }

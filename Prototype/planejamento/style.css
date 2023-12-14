@@ -70,9 +70,27 @@ button {
 
 .saldo {
   display: flex;
-  gap: 30px;
-  background-color: hsl(210, 16.67%, 97.65%);
-  border-radius: 12px;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.saldo > .addsaldo {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #333;
+  color: #f4f4f4;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.saldo > input {
+  border: none;
+  border: transparent;
 }

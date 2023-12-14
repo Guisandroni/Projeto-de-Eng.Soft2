@@ -13,35 +13,38 @@ package "CoinKeep" {
   }
 
   class Receita {
-    - description: string
+    - name: string
     - value: int
     - date: char
   }
 
   class Despesa {
-    - description: string
+    - name: string
     - value: int
     - date: char
     - category: string
   }
 
   class Meta {
-    - description: string
+    - name: string
+    - probably_date: char
+    - expected_date: char
+    - goal: string
     - value: int
-    - date: char
+    - progress: int
+    - priority: char
     
   }
 
   class Relatorio {
     - title: string
-    - date: char
+    - value: int
     - Content: string
+    - graphics: int
   }
 
   class Planejamento {
     - renda: int
-    - Deadline: int
-    - orçamento: int
   }
   
 
@@ -56,13 +59,22 @@ package "CoinKeep" {
     - email: string
     - Data: char
   }
- Planejamento -- Receita
- Planejamento -- Despesa
- Client -- Planejamento
- Planejamento-- Meta
-Planejamento -- Relatorio
- Client -- Criar_Conta
- Client -- Comprar_Plano
+  top to bottom direction
+Client "0:1"-up-"1:1" Criar_Conta
+Client "0:1"-up-"1:1" Comprar_Plano
+Client "0:1"-up-"1:1" Planejamento
+
+Client "0:1"--"1:N" Meta
+Client "0:1"--"1:N" Receita
+Client "0:1"--"1:N" Despesa
+Client "0:1"--"1:1" Relatorio
+
+Meta "0:N"--"0:1" Relatorio
+Despesa "0:N"--"0:1" Relatorio
+Receita "0:N"--"0:1" Relatorio
+
+
+
 
 }
 

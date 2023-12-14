@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>CoinKeep</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/Prototype/receita/style.css">
@@ -72,12 +73,7 @@
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       Adicionar Receita
     </button>
-    <div class="saldo">
-      <div class="saldoinicial">
-        <p>Saldo receita: R$ 10.000,00</p>
-      </div>
 
-    </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -87,14 +83,20 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Nome</p>
-            <input type="text">
-            <p>Valor</p>
-            <input type="text">
-            <p>Data</p>
-            <input type="date">
-            <p>Descrição</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="text" placeholder="Nome da Receita">
+
+
+
+
+            <input type="text" placeholder="Saldo da Receita">
+
+            <div class="inptdata">
+              <span>Data Receita</span>
+              <input type="date">
+            </div>
+
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -111,37 +113,29 @@
 
   <div class="main">
 
-    <!--cards-->
+    <div class="receitas">
+      <p>Venda Mercado Livre</p>
+      <p>Valor: R$ 800,00</p>
 
-
-
-
-
-
-
-    <div class="card border-dark mb-3" style="max-width: 18rem;">
-      <div class="card-header">Venda de Carro
-        <button type="button" class="btn btn-light"> - Editar</button>
-
+      <div class="data">
+        <span>11/12/2023
+          <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            <rect x="6" y="12" width="3" height="3" rx="0.5" fill="#000000" />
+            <rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#000000" />
+            <rect x="15" y="12" width="3" height="3" rx="0.5" fill="#000000" />
+          </svg>
+        </span>
       </div>
 
-      <div class="card-body">
-        <div class="dadodespesa">
-          <p>Venda de um carro usado</p>
-
-          <div class="valor_data">
-            <p>R$ 10.000,00</p>
-            <input type="date">
-
-          </div>
-
-          <button type="button" class="btn btn-light">Excluir</button>
-
-
-
-        </div>
+      <div class="btns">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
+        <button type="button" class="btn btn-light"> Excluir</button>
       </div>
     </div>
+
+
 
 
 

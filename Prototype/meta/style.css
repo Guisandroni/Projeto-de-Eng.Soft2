@@ -43,10 +43,79 @@ a {
   margin: 20px;
 }
 
-.saldoinicial,
-.saldodespesas,
-.saldoreceita {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.lancamentos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+  align-items: start;
+  color: #000000;
   border-radius: 12px;
-  padding: 10px;
+  padding: 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.lancamentos > .descrimeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.lancamentos > .valormeta {
+  display: flex;
+}
+.btns {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.progre {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  margin: 0px 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modal-body > p {
+  margin: 5px;
+}
+
+input,
+textarea {
+  border-radius: 6px;
+  text-align: center;
+}
+
+.inptdata {
+  gap: 10px;
+  display: flex;
+}
+
+.prioridade {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data {
+  border: 0px solid;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }

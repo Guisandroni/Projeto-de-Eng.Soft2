@@ -15,45 +15,6 @@ a {
   font-family: "Fraunces", serif;
 }
 
-.ferramentas {
-  font-size: 16px;
-  gap: 10px;
-  color: #f0f0f0;
-}
-
-.ferramentas > p {
-  padding: 20px 10px;
-}
-
-.logo {
-  color: #ffff;
-}
-.navbar > h2 {
-  color: #ffff;
-}
-.perfil {
-  display: flex;
-  align-items: center;
-  color: #ffff;
-}
-.perfil > p {
-  padding: 10px;
-}
-
-.perfil > .nome {
-  font-size: 18px;
-}
-
-.foto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  color: black;
-  width: 100px;
-  height: 100px;
-}
 .main {
   display: flex;
   justify-content: center;
@@ -71,30 +32,41 @@ a {
   margin: 20px;
 }
 
-.dadodespesa > .btn-light {
-  width: 100%;
-  margin-top: 10px;
+.receitas {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  gap: 10px;
 }
 
-.teste {
-  display: none;
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .modal-body > p {
-  margin: 4px;
+  margin: 5px;
 }
 
-.saldo {
+input,
+textarea {
+  border-radius: 6px;
+  text-align: center;
+}
+
+.inptdata {
+  gap: 10px;
   display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin: 20px;
 }
 
-.saldoinicial,
-.saldodespesas,
-.saldoreceita {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 10px;
+.data {
+  border: 2px solid;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
